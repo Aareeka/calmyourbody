@@ -26,4 +26,4 @@ remedies:
 
 Menstrual cramps are common and usually manageable with consistent, gentle self-care approaches.
 
-**When to see a doctor:** Pain that is severe, worsening over time, or disrupts daily life should be discussed with a healthcare provider, as it can sometimes signal an underlying condition. This content is educational and not a substitute for professional medical advice.
+**When to see a doctor:** Pain that is severe, worsening over time, or disrupts daily life should be discussed with a healthcare provider. This content is educational and not a substitute for professional medical advice.

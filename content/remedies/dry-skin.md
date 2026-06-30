@@ -27,4 +27,3 @@ remedies:
 Dry skin is often tied to weather, hot showers, or low humidity, and usually responds well to gentle moisture-focused care.
 
 **When to see a doctor:** Skin that cracks, bleeds, becomes infected, or is accompanied by significant itching that disrupts sleep should be evaluated by a medical professional. This content is educational and not a substitute for professional medical advice.
-
