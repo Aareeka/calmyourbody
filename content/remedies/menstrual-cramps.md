@@ -9,19 +9,19 @@ remedies:
   - name: "Heat Therapy"
     description: "A heating pad on the lower abdomen is one of the most consistently helpful traditional remedies for cramps."
     affiliateProductName: "Reusable Heat Wrap"
-    affiliateLink: "https://example.com/affiliate/heat-wrap"
+    affiliateLink: "https://amzn.to/4oWtq29"
   - name: "Magnesium"
     description: "Magnesium is commonly explored for its role in muscle relaxation and may help ease cramping."
     affiliateProductName: "Magnesium Glycinate Capsules"
-    affiliateLink: "https://example.com/affiliate/magnesium"
+    affiliateLink: "https://amzn.to/4v3EfAI"
   - name: "Ginger Tea"
     description: "Ginger has anti-inflammatory properties that are traditionally used to help with menstrual discomfort."
     affiliateProductName: "Ginger Tea"
-    affiliateLink: "https://example.com/affiliate/ginger-tea"
+    affiliateLink: "https://amzn.to/44EClMg"
   - name: "Gentle Movement"
     description: "Light stretching or walking can improve blood flow and ease tension, even when resting feels more appealing."
-    affiliateProductName: null
-    affiliateLink: null
+    affiliateProductName: "Stretch Straps"
+    affiliateLink: "https://amzn.to/4v3EuvC"
 ---
 
 Menstrual cramps are common and usually manageable with consistent, gentle self-care approaches.
