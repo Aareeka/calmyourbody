@@ -1,29 +1,50 @@
 \---
 
 title: "Soothing a Sore Throat Naturally"
+
 slug: "sore-throat"
+
 category: "Cold \& Immune"
+
 symptoms: \["sore throat", "scratchy throat", "throat pain", "hoarse voice"]
+
 summary: "Gentle, traditional approaches to ease throat irritation."
+
 lastUpdated: "2026-06-30"
+
 remedies:
 
-* name: "Honey and Warm Water"
-description: "Honey has natural soothing properties and is a traditional remedy for coating and calming an irritated throat."
-affiliateProductName: "Raw Honey"
-affiliateLink: "https://amzn.to/4vHFgjl"
-* name: "Salt Water Gargle"
-description: "Gargling warm salt water is a simple, widely used method to reduce throat irritation and swelling."
-affiliateProductName: "Mineral Saltwater Gargle"
-affiliateLink: "https://amzn.to/3Tcn2rB"
-* name: "Slippery Elm Lozenges"
-description: "Slippery elm has a long history of traditional use for coating and soothing the throat."
-affiliateProductName: "Slippery Elm Lozenges"
-affiliateLink: "https://amzn.to/4eQbhyt"
-* name: "Steam Inhalation"
-description: "Breathing in warm steam can help moisten dry, irritated throat tissue."
-affiliateProductName: "Facial Steamer"
-affiliateLink: "https://amzn.to/4v7eJe3"
+&#x20; - name: "Honey and Warm Water"
+
+&#x20;   description: "Honey has natural soothing properties and is a traditional remedy for coating and calming an irritated throat."
+
+&#x20;   affiliateProductName: "Raw Honey"
+
+&#x20;   affiliateLink: "https://amzn.to/4vHFgjl"
+
+&#x20; - name: "Salt Water Gargle"
+
+&#x20;   description: "Gargling warm salt water is a simple, widely used method to reduce throat irritation and swelling."
+
+&#x20;   affiliateProductName: "Mineral Saltwater Gargle"
+
+&#x20;   affiliateLink: "https://amzn.to/3Tcn2rB"
+
+&#x20; - name: "Slippery Elm Lozenges"
+
+&#x20;   description: "Slippery elm has a long history of traditional use for coating and soothing the throat."
+
+&#x20;   affiliateProductName: "Slippery Elm Lozenges"
+
+&#x20;   affiliateLink: "https://amzn.to/4eQbhyt"
+
+&#x20; - name: "Steam Inhalation"
+
+&#x20;   description: "Breathing in warm steam can help moisten dry, irritated throat tissue."
+
+&#x20;   affiliateProductName: "Facial Steamer"
+
+&#x20;   affiliateLink: "https://amzn.to/4v7eJe3"
 
 \---
 

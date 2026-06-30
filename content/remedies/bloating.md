@@ -1,29 +1,50 @@
 \---
 
 title: "Holistic Approaches to Bloating"
+
 slug: "bloating"
+
 category: "Digestive Health"
+
 symptoms: \["bloating", "stomach ache", "gas", "abdominal discomfort"]
+
 summary: "Gentle, natural strategies for easing bloating and digestive discomfort."
+
 lastUpdated: "2026-06-30"
+
 remedies:
 
-* name: "Peppermint Tea"
-description: "Peppermint has long been used to relax digestive muscles and ease trapped gas."
-affiliateProductName: "Organic Peppermint Tea"
-affiliateLink: "https://amzn.to/4xYVJkD"
-* name: "Ginger"
-description: "Ginger is traditionally used to support digestion and reduce feelings of fullness or nausea."
-affiliateProductName: "Fresh Ginger Root Capsules"
-affiliateLink: "https://amzn.to/4woRz41"
-* name: "Probiotic Support"
-description: "A balanced gut microbiome may help reduce gas and bloating over time."
-affiliateProductName: "Daily Probiotic Blend"
-affiliateLink: "https://amzn.to/4wbb9AC"
-* name: "Gentle Walking After Meals"
-description: "Light movement after eating can help move gas through the digestive tract."
-affiliateProductName: "Walking Shoes"
-affiliateLink: "https://amzn.to/3SVPgXz"
+&#x20; - name: "Peppermint Tea"
+
+&#x20;   description: "Peppermint has long been used to relax digestive muscles and ease trapped gas."
+
+&#x20;   affiliateProductName: "Organic Peppermint Tea"
+
+&#x20;   affiliateLink: "https://amzn.to/4xYVJkD"
+
+&#x20; - name: "Ginger"
+
+&#x20;   description: "Ginger is traditionally used to support digestion and reduce feelings of fullness or nausea."
+
+&#x20;   affiliateProductName: "Fresh Ginger Root Capsules"
+
+&#x20;   affiliateLink: "https://amzn.to/4woRz41"
+
+&#x20; - name: "Probiotic Support"
+
+&#x20;   description: "A balanced gut microbiome may help reduce gas and bloating over time."
+
+&#x20;   affiliateProductName: "Daily Probiotic Blend"
+
+&#x20;   affiliateLink: "https://amzn.to/4wbb9AC"
+
+&#x20; - name: "Gentle Walking After Meals"
+
+&#x20;   description: "Light movement after eating can help move gas through the digestive tract."
+
+&#x20;   affiliateProductName: "Walking Shoes"
+
+&#x20;   affiliateLink: "https://amzn.to/3SVPgXz"
 
 \---
 
