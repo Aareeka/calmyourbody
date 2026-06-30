@@ -1,4 +1,5 @@
 import { getAllRemedies, getRemedyBySlug } from "../../../lib/remedies";
+import Sprig from "../../../components/Sprig";
 
 export async function generateStaticParams() {
   const remedies = getAllRemedies();
@@ -28,7 +29,10 @@ export default async function RemedyPage({ params }) {
       />
 
       <section className="remedies-list">
-        <h2>Remedies to Explore</h2>
+        <div className="section-heading">
+          <Sprig className="divider-sprig" />
+          <h2>Remedies to Explore</h2>
+        </div>
         {remedy.remedies.map((item, idx) => (
           <div key={idx} className="remedy-item">
             <h3>{item.name}</h3>

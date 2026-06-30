@@ -7,6 +7,7 @@
   --color-forest-deep: #15291F;
   --color-sage: #7C9885;
   --color-ochre: #C99A4B;
+  --color-rust: #8C4A2F;
   --color-ink: #2B2B26;
   --color-ink-soft: #5C5C54;
   --color-border: #C9CBBC;
@@ -94,24 +95,80 @@ a {
 
 /* Hero */
 .hero {
+  position: relative;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(124,152,133,0.18), transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(201,154,75,0.14), transparent 50%),
+    var(--color-forest-deep);
+  color: var(--color-paper);
+  padding: 5rem 1.5rem 6rem;
+  overflow: hidden;
+}
+
+.hero-inner {
+  max-width: 560px;
+  margin: 0 auto;
   text-align: center;
-  padding: 3rem 0 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-ochre);
+  margin-bottom: 1.25rem;
 }
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-size: clamp(2.6rem, 6vw, 4rem);
   font-weight: 600;
-  color: var(--color-forest-deep);
-  margin: 0 0 0.75rem;
+  line-height: 1.08;
+  margin: 0 0 1rem;
   letter-spacing: -0.02em;
 }
 
+.hero h1 em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-sage);
+}
+
 .hero p {
-  max-width: 480px;
-  margin: 0 auto 2rem;
-  color: var(--color-ink-soft);
+  max-width: 440px;
+  margin: 0 auto 2.25rem;
+  color: #C7CDC2;
   font-size: 1.05rem;
+}
+
+.hero-sprig {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(700px, 140%);
+  height: auto;
+  color: rgba(124, 152, 133, 0.35);
+  z-index: 1;
+}
+
+/* Signature sprig used as a section divider throughout the site */
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.divider-sprig {
+  width: 64px;
+  height: 20px;
+  color: var(--color-ochre);
+  flex-shrink: 0;
 }
 
 /* Search bar — styled like an apothecary label/dropper tag */
@@ -122,7 +179,7 @@ a {
 
 .search-form {
   display: flex;
-  border: 1.5px solid var(--color-forest-deep);
+  border: 1.5px solid var(--color-sage);
   border-radius: var(--radius);
   overflow: hidden;
   background: #fff;
@@ -212,13 +269,15 @@ a {
 
 /* Remedy grid */
 .featured h2,
+.section-heading h2,
 .container h1 {
   font-family: var(--font-display);
   color: var(--color-forest-deep);
+  margin: 0;
 }
 
 .featured {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 .remedy-grid {
@@ -233,20 +292,21 @@ a {
   background: #fff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: 1.25rem;
+  padding: 1.4rem;
   text-decoration: none;
   color: var(--color-ink);
-  transition: transform 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .remedy-card:hover {
   border-color: var(--color-ochre);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(31, 58, 46, 0.1);
 }
 
 .remedy-card h3 {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color: var(--color-forest-deep);
   margin: 0 0 0.4rem;
 }
@@ -309,12 +369,7 @@ a {
 .remedies-list {
   margin-top: 2.5rem;
   border-top: 1px solid var(--color-border);
-  padding-top: 1.5rem;
-}
-
-.remedies-list h2 {
-  font-family: var(--font-display);
-  color: var(--color-forest-deep);
+  padding-top: 1.75rem;
 }
 
 .remedy-item {
